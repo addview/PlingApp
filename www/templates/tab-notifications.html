@@ -1,0 +1,16 @@
+<ion-view view-title="Aviseringar">
+    <ion-content>
+        <ion-list>
+            <ion-item class="item-remove-animate item-icon-left item-icon-right" ng-repeat="notification in notifications" type="item-text-wrap" href="#/tab/notifications/{{notification.id}}">
+                <h2>{{notification.title}}</h2>
+                <p>Aktivitet påbörjas: {{notification.date}}</p>
+                <p>{{notification.message}}</p>
+                <i class="icon  {{notification.type}} "></i>
+                <i class="icon ion-chevron-right icon-accessory"></i>
+                <ion-option-button class="button-assertive" ng-click="remove(chat)">
+                    Delete
+                </ion-option-button>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

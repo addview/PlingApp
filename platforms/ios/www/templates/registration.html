@@ -1,0 +1,38 @@
+<ion-view view-title="Skapa konto">
+    <ion-content>
+        <div class="padding">
+            <form name="SigninForm" ng-submit="registration(reg)">
+                <div class="list">
+                    <label class="item item-input">
+                        <input type="text" placeholder="Namn" ng-model="reg.username">
+                    </label>
+                </div>
+                <div class="list">
+                    <label class="item item-input">
+                        <input type="tel" placeholder="Mobilnummer" ng-model="reg.phone">
+                    </label>
+                    <label class="item item-input">
+                        <input type="email" placeholder="E-post" ng-model="reg.email">
+                    </label>
+                    <label class="item item-input">
+                        <input type="password" placeholder="Lösenord" ng-model="reg.password">
+                    </label>
+                </div>
+                <div class="list">
+                    <label class="item item-input">
+                        <input type="text" placeholder="Adress" ng-model="reg.address">
+                    </label>
+                    <label class="item item-input">
+                        <input type="text" placeholder="Lägenhetsnummer" ng-model="reg.apartmentnumber">
+                    </label>
+                </div>
+              
+                <button class="button button-block button-positive" type="submit">
+                    Registrera
+                </button>
+                <p class="registrationmargin">Genom att skapa ett konto godkänner du
+                    <br> <a href="/#">villkoren</a></p>
+        </div>
+        </form>
+    </ion-content>
+</ion-view>

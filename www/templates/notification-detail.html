@@ -1,0 +1,22 @@
+<ion-view view-title="Detaljinformation">
+    <ion-content class="padding">
+        <div class="list card">
+            <div class="item item-icon-left">
+                <i class="icon {{notifications.type}} "></i>
+                <h2>{{notifications.title}}</h2>
+            </div>
+            <div class="item item-body">
+                <p class="bolder">Aktivitet påbörjas: {{notifications.date}}</p>
+                <p>{{notifications.message}}</p>
+                <p class="bolder">Mer information:</p>
+                <p>Ansvarig för aktiviteten: {{notifications.furtherinformation.responsible}}</p>
+                <p class="bolder">Leverantörsinformation: </p>
+                <p>Leverantör: {{notifications.furtherinformation.supplier.name}}
+                    <br> Kontaktperson: {{notifications.furtherinformation.supplier.contact}}
+                    <br> Telefonnummer: {{notifications.furtherinformation.supplier.phone}}
+                    <br> Mailadress: {{notifications.furtherinformation.supplier.email}}
+                </p>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

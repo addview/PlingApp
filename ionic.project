@@ -1,0 +1,12 @@
+{
+  "name": "PlingApp",
+  "app_id": "d1a07bd5",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

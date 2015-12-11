@@ -1,0 +1,73 @@
+2015-12-08 11:24:09.138 PlingApp[5028:334031] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/fredrik/Library/Developer/CoreSimulator/Devices/9C8EC88B-3D36-4AC9-A4B5-61E413B18BCB/data/Containers/Data/Application/9E255529-A693-4EA1-A8B0-33694FAB3655/Library/Cookies/com.ionicframework.plingapp672980.binarycookies
+2015-12-08 11:24:09.456 PlingApp[5028:334031] Apache Cordova native platform version 3.8.0 is starting.
+2015-12-08 11:24:09.457 PlingApp[5028:334031] Multi-tasking -> Device: YES, App: YES
+2015-12-08 11:24:09.468 PlingApp[5028:334031] Unlimited access to network resources
+2015-12-08 11:24:10.303 PlingApp[5028:334031] Resetting plugins due to page load.
+2015-12-08 11:24:10.876 PlingApp[5028:334031] Finished load of: file:///Users/fredrik/Library/Developer/CoreSimulator/Devices/9C8EC88B-3D36-4AC9-A4B5-61E413B18BCB/data/Containers/Bundle/Application/F0B737B4-CCFC-46FB-B0F5-0DDAF8DEBB6A/PlingApp.app/www/index.html#/start
+2015-12-09 11:05:24.885 PlingApp[16148:1155056] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/fredrik/Library/Developer/CoreSimulator/Devices/9C8EC88B-3D36-4AC9-A4B5-61E413B18BCB/data/Containers/Data/Application/8ADEEA7C-0E06-4521-A4C8-8437C5854ED9/Library/Cookies/com.ionicframework.plingapp672980.binarycookies
+2015-12-09 11:05:25.192 PlingApp[16148:1155056] Apache Cordova native platform version 3.8.0 is starting.
+2015-12-09 11:05:25.193 PlingApp[16148:1155056] Multi-tasking -> Device: YES, App: YES
+2015-12-09 11:05:25.209 PlingApp[16148:1155056] Unlimited access to network resources
+2015-12-09 11:05:26.020 PlingApp[16148:1155056] Resetting plugins due to page load.
+2015-12-09 11:05:26.451 PlingApp[16148:1155056] Finished load of: file:///Users/fredrik/Library/Developer/CoreSimulator/Devices/9C8EC88B-3D36-4AC9-A4B5-61E413B18BCB/data/Containers/Bundle/Application/C752BFAE-109F-43E6-BB0C-C1DC74E86203/PlingApp.app/www/index.html
+2015-12-09 11:19:06.153 PlingApp[16406:1166516] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/fredrik/Library/Developer/CoreSimulator/Devices/9C8EC88B-3D36-4AC9-A4B5-61E413B18BCB/data/Containers/Data/Application/A614E3B8-11BA-4A4A-9310-8671B83A8021/Library/Cookies/com.ionicframework.plingapp672980.binarycookies
+2015-12-09 11:19:06.249 PlingApp[16406:1166516] Apache Cordova native platform version 3.8.0 is starting.
+2015-12-09 11:19:06.249 PlingApp[16406:1166516] Multi-tasking -> Device: YES, App: YES
+2015-12-09 11:19:06.251 PlingApp[16406:1166516] Unlimited access to network resources
+2015-12-09 11:19:06.473 PlingApp[16406:1166516] Resetting plugins due to page load.
+2015-12-09 11:19:06.890 PlingApp[16406:1166516] Finished load of: file:///Users/fredrik/Library/Developer/CoreSimulator/Devices/9C8EC88B-3D36-4AC9-A4B5-61E413B18BCB/data/Containers/Bundle/Application/8E247D1B-2641-4F6F-ABA9-E78FF7E3D039/PlingApp.app/www/index.html#/start
+2015-12-09 11:21:33.005 PlingApp[16406:1166516] CDVWebViewDelegate: Navigation started when state=1
+2015-12-09 11:21:33.014 PlingApp[16406:1166516] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-12-09 11:21:34.174 PlingApp[16406:1166516] CDVWebViewDelegate: Navigation started when state=1
+2015-12-09 11:21:34.174 PlingApp[16406:1166516] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-12-09 11:21:40.532 PlingApp[16406:1166516] CDVWebViewDelegate: Navigation started when state=1
+2015-12-09 11:21:40.532 PlingApp[16406:1166516] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-12-09 11:21:55.366 PlingApp[16406:1166516] CDVWebViewDelegate: Navigation started when state=1
+2015-12-09 11:21:55.366 PlingApp[16406:1166516] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-12-09 11:22:48.761 PlingApp[16406:1166516] CDVWebViewDelegate: Navigation started when state=1
+2015-12-09 11:22:48.761 PlingApp[16406:1166516] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-12-09 11:22:51.084 PlingApp[16406:1166516] CDVWebViewDelegate: Navigation started when state=1
+2015-12-09 11:22:51.084 PlingApp[16406:1166516] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-12-09 11:23:11.497 PlingApp[16406:1166516] CDVWebViewDelegate: Navigation started when state=1
+2015-12-09 11:23:11.497 PlingApp[16406:1166516] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-12-09 11:24:50.799 PlingApp[16406:1166516] CDVWebViewDelegate: Navigation started when state=1
+2015-12-09 11:24:50.800 PlingApp[16406:1166516] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-12-09 11:24:51.994 PlingApp[16406:1166516] CDVWebViewDelegate: Navigation started when state=1
+2015-12-09 11:24:51.994 PlingApp[16406:1166516] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-12-09 11:25:58.718 PlingApp[16617:1173779] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/fredrik/Library/Developer/CoreSimulator/Devices/9C8EC88B-3D36-4AC9-A4B5-61E413B18BCB/data/Containers/Data/Application/EA3536A5-F360-452C-8D0F-B9FBD9E84C0C/Library/Cookies/com.ionicframework.plingapp672980.binarycookies
+2015-12-09 11:25:58.790 PlingApp[16617:1173779] Apache Cordova native platform version 3.8.0 is starting.
+2015-12-09 11:25:58.790 PlingApp[16617:1173779] Multi-tasking -> Device: YES, App: YES
+2015-12-09 11:25:58.792 PlingApp[16617:1173779] Unlimited access to network resources
+2015-12-09 11:25:58.955 PlingApp[16617:1173779] Resetting plugins due to page load.
+2015-12-09 11:25:59.229 PlingApp[16617:1173779] Finished load of: file:///Users/fredrik/Library/Developer/CoreSimulator/Devices/9C8EC88B-3D36-4AC9-A4B5-61E413B18BCB/data/Containers/Bundle/Application/5727C41E-CC72-490D-A82B-DA7F1862AE02/PlingApp.app/www/index.html#/start
+2015-12-09 11:26:42.188 PlingApp[16781:1175185] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/fredrik/Library/Developer/CoreSimulator/Devices/9C8EC88B-3D36-4AC9-A4B5-61E413B18BCB/data/Containers/Data/Application/61688EC7-C23F-4555-B33B-8B6672D7A7C8/Library/Cookies/com.ionicframework.plingapp672980.binarycookies
+2015-12-09 11:26:42.255 PlingApp[16781:1175185] Apache Cordova native platform version 3.8.0 is starting.
+2015-12-09 11:26:42.255 PlingApp[16781:1175185] Multi-tasking -> Device: YES, App: YES
+2015-12-09 11:26:42.257 PlingApp[16781:1175185] Unlimited access to network resources
+2015-12-09 11:26:42.386 PlingApp[16781:1175185] Resetting plugins due to page load.
+2015-12-09 11:26:42.668 PlingApp[16781:1175185] Finished load of: file:///Users/fredrik/Library/Developer/CoreSimulator/Devices/9C8EC88B-3D36-4AC9-A4B5-61E413B18BCB/data/Containers/Bundle/Application/6E73B436-72C4-48C6-B04D-8FD3F1744DD4/PlingApp.app/www/index.html#/start
+2015-12-09 21:57:16.404 PlingApp[19003:1358349] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/fredrik/Library/Developer/CoreSimulator/Devices/9C8EC88B-3D36-4AC9-A4B5-61E413B18BCB/data/Containers/Data/Application/55B63749-2967-47C1-9600-2066F5AFC331/Library/Cookies/com.ionicframework.plingapp672980.binarycookies
+2015-12-09 21:57:16.481 PlingApp[19003:1358349] Apache Cordova native platform version 3.8.0 is starting.
+2015-12-09 21:57:16.481 PlingApp[19003:1358349] Multi-tasking -> Device: YES, App: YES
+2015-12-09 21:57:16.493 PlingApp[19003:1358349] Unlimited access to network resources
+2015-12-09 21:57:16.983 PlingApp[19003:1358349] Resetting plugins due to page load.
+2015-12-09 21:57:17.453 PlingApp[19003:1358349] Finished load of: file:///Users/fredrik/Library/Developer/CoreSimulator/Devices/9C8EC88B-3D36-4AC9-A4B5-61E413B18BCB/data/Containers/Bundle/Application/9245D64B-AB50-4437-BDBE-338C8780C09B/PlingApp.app/www/index.html#/start
+2015-12-09 21:57:30.524 PlingApp[19003:1358349] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3959308031_PortraitChoco_iPhone-Complex-Pad_Default
+2015-12-09 21:57:45.142 PlingApp[19003:1358349] Can't find keyplane that supports type 5 for keyboard iPhone-PortraitChoco-PhonePad; using 3959308031_PortraitChoco_iPhone-Complex-Pad_Default
+2015-12-10 21:05:49.651 PlingApp[23661:1725998] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/fredrik/Library/Developer/CoreSimulator/Devices/9C8EC88B-3D36-4AC9-A4B5-61E413B18BCB/data/Containers/Data/Application/082E23E9-F23C-4735-A374-6548410C1AE9/Library/Cookies/com.ionicframework.plingapp672980.binarycookies
+2015-12-10 21:05:49.945 PlingApp[23661:1725998] Apache Cordova native platform version 3.8.0 is starting.
+2015-12-10 21:05:49.946 PlingApp[23661:1725998] Multi-tasking -> Device: YES, App: YES
+2015-12-10 21:05:49.963 PlingApp[23661:1725998] Unlimited access to network resources
+2015-12-10 21:05:50.852 PlingApp[23661:1725998] Resetting plugins due to page load.
+2015-12-10 21:05:51.288 PlingApp[23661:1725998] Finished load of: file:///Users/fredrik/Library/Developer/CoreSimulator/Devices/9C8EC88B-3D36-4AC9-A4B5-61E413B18BCB/data/Containers/Bundle/Application/75AE6EC8-7FFB-4E0F-AE8C-454C56147D13/PlingApp.app/www/index.html#/start
+2015-12-10 21:43:35.018 PlingApp[24127:1761298] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/fredrik/Library/Developer/CoreSimulator/Devices/9C8EC88B-3D36-4AC9-A4B5-61E413B18BCB/data/Containers/Data/Application/27042CE2-D5B8-48C1-914F-F60261F22B44/Library/Cookies/com.ionicframework.plingapp672980.binarycookies
+2015-12-10 21:43:35.119 PlingApp[24127:1761298] Apache Cordova native platform version 3.8.0 is starting.
+2015-12-10 21:43:35.119 PlingApp[24127:1761298] Multi-tasking -> Device: YES, App: YES
+2015-12-10 21:43:35.122 PlingApp[24127:1761298] Unlimited access to network resources
+2015-12-10 21:43:35.392 PlingApp[24127:1761298] Resetting plugins due to page load.
+2015-12-10 21:43:35.768 PlingApp[24127:1761298] Finished load of: file:///Users/fredrik/Library/Developer/CoreSimulator/Devices/9C8EC88B-3D36-4AC9-A4B5-61E413B18BCB/data/Containers/Bundle/Application/E56A99EA-FAEE-4EC2-9715-5D06D31FE2DE/PlingApp.app/www/index.html#/start
+2015-12-10 21:49:46.558 PlingApp[24664:1770816] Apache Cordova native platform version 3.8.0 is starting.
+2015-12-10 21:49:46.559 PlingApp[24664:1770816] Multi-tasking -> Device: YES, App: YES
+2015-12-10 21:49:46.562 PlingApp[24664:1770816] Unlimited access to network resources
+2015-12-10 21:49:46.670 PlingApp[24664:1770816] Resetting plugins due to page load.
+2015-12-10 21:49:46.961 PlingApp[24664:1770816] Finished load of: file:///Users/fredrik/Library/Developer/CoreSimulator/Devices/9C8EC88B-3D36-4AC9-A4B5-61E413B18BCB/data/Containers/Bundle/Application/5E15052D-021B-4422-89F7-C206B18C28A9/PlingApp.app/www/index.html#/start
