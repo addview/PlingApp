@@ -69,7 +69,14 @@
         },
         "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "com.ionicframework.starter"
+        },
+        "de.appplant.cordova.plugin.badge": {
+            "PACKAGE_NAME": "com.ionicframework.plingapp672980"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "de.appplant.cordova.common.registerusernotificationsettings": {
+            "PACKAGE_NAME": "com.ionicframework.plingapp672980"
+        }
+    }
 }

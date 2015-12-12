@@ -4,8 +4,37 @@
         "uninstalled": []
     },
     "config_munge": {
-        "files": {}
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Badge\"><param name=\"ios-package\" value=\"APPBadge\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
     },
-    "installed_plugins": {},
-    "dependent_plugins": {}
+    "installed_plugins": {
+        "de.appplant.cordova.common.registerusernotificationsettings": {
+            "PACKAGE_NAME": "com.ionicframework.plingapp672980"
+        },
+        "de.appplant.cordova.plugin.badge": {
+            "PACKAGE_NAME": "com.ionicframework.plingapp672980"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/de.appplant.cordova.plugin.badge/www/badge.js",
+            "id": "de.appplant.cordova.plugin.badge.Badge",
+            "pluginId": "de.appplant.cordova.plugin.badge",
+            "clobbers": [
+                "plugin.notification.badge",
+                "cordova.plugins.notification.badge"
+            ]
+        }
+    ]
 }
