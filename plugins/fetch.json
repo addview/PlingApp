@@ -49,8 +49,9 @@
     },
     "de.appplant.cordova.plugin.badge": {
         "source": {
-            "type": "registry",
-            "id": "de.appplant.cordova.plugin.badge"
+            "type": "git",
+            "url": "https://github.com/katzer/cordova-plugin-badge.git",
+            "subdir": "."
         },
         "is_top_level": true,
         "variables": {}
