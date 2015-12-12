@@ -11,7 +11,22 @@ var app = angular.module('app.controllers', [])
 
 })
 
-.controller('RegistrationCtrl', function($scope, $state, $ionicPopup, Userinformations) {
+.controller('RegistrationCtrl', function($scope, $state, $ionicPopup, $ionicPlatform, $cordovaBadge, Userinformations) {
+
+    $ionicPlatform.ready(function() {
+        $cordovaBadge.promptForPermission();
+
+        $scope.setBadge = function(value) {
+            $cordovaBadge.hasPermission().then(function(result) {
+                $cordovaBadge.set(value);
+            }, function(error) {
+                alert(error);
+            });
+        };
+
+        $scope.setBadge(5);
+    });
+
 
     $scope.reg = Userinformations.emptyobject();
 
@@ -55,13 +70,13 @@ var app = angular.module('app.controllers', [])
 })
 
 .controller('NotificationDetailCtrl', function($scope, $stateParams, Notifications) {
-    
+
     $scope.notifications = Notifications.get($stateParams.notificationId);
 
 })
 
 .controller('InformationCtrl', function($scope, $state) {
-    
+
     $scope.contactinformations = function() {
         $state.go('tab.informations-contacts');
     };
@@ -80,14 +95,11 @@ var app = angular.module('app.controllers', [])
 
 })
 
-.controller('InformationContactCtrl', function($scope) {
-})
+.controller('InformationContactCtrl', function($scope) {})
 
-.controller('InformationScheduleCtrl', function($scope) {
-})
+.controller('InformationScheduleCtrl', function($scope) {})
 
-.controller('InformationVariousDocumentCtrl', function($scope) {
-})
+.controller('InformationVariousDocumentCtrl', function($scope) {})
 
 .controller('InformationMySettingsCtrl', function($scope, $ionicPopup, Userinformations) {
 
@@ -106,5 +118,4 @@ var app = angular.module('app.controllers', [])
 
 })
 
-.controller('SettingsCtrl', function($scope) {
-});
+.controller('SettingsCtrl', function($scope) {});
