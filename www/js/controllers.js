@@ -55,13 +55,13 @@ var app = angular.module('app.controllers', [])
 })
 
 .controller('NotificationDetailCtrl', function($scope, $stateParams, Notifications) {
-    
+
     $scope.notifications = Notifications.get($stateParams.notificationId);
 
 })
 
 .controller('InformationCtrl', function($scope, $state) {
-    
+
     $scope.contactinformations = function() {
         $state.go('tab.informations-contacts');
     };
@@ -74,24 +74,23 @@ var app = angular.module('app.controllers', [])
         $state.go('tab.informations-variousdocument');
     };
 
-    $scope.contactmysettings = function() {
-        $state.go('tab.informations-mysettings');
-    };
-
 })
 
-.controller('InformationContactCtrl', function($scope) {
-})
+.controller('InformationContactCtrl', function($scope) {})
 
-.controller('InformationScheduleCtrl', function($scope) {
-})
+.controller('InformationScheduleCtrl', function($scope) {})
 
-.controller('InformationVariousDocumentCtrl', function($scope) {
-})
+.controller('InformationVariousDocumentCtrl', function($scope) {})
 
-.controller('InformationMySettingsCtrl', function($scope, $ionicPopup, Userinformations) {
+.controller('InformationMySettingsCtrl', function($scope) {})
+
+.controller('SettingsCtrl', function($scope, $state, $ionicPopup, Userinformations) {
 
     $scope.user = Userinformations.get(1);
+
+    $scope.mysettings = function() {
+        $state.go('tab.settings-mysettings');
+    };
 
     // an alert dialog
     $scope.uppdated = function() {
@@ -104,7 +103,4 @@ var app = angular.module('app.controllers', [])
         });
     };
 
-})
-
-.controller('SettingsCtrl', function($scope) {
 });
