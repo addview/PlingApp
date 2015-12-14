@@ -74,10 +74,6 @@ var app = angular.module('app.controllers', [])
         $state.go('tab.informations-variousdocument');
     };
 
-    $scope.contactmysettings = function() {
-        $state.go('tab.informations-mysettings');
-    };
-
 })
 
 .controller('InformationContactCtrl', function($scope) {})
@@ -86,9 +82,15 @@ var app = angular.module('app.controllers', [])
 
 .controller('InformationVariousDocumentCtrl', function($scope) {})
 
-.controller('InformationMySettingsCtrl', function($scope, $ionicPopup, Userinformations) {
+.controller('InformationMySettingsCtrl', function($scope) {})
+
+.controller('SettingsCtrl', function($scope, $state, $ionicPopup, Userinformations) {
 
     $scope.user = Userinformations.get(1);
+
+    $scope.mysettings = function() {
+        $state.go('tab.settings-mysettings');
+    };
 
     // an alert dialog
     $scope.uppdated = function() {
@@ -101,6 +103,4 @@ var app = angular.module('app.controllers', [])
         });
     };
 
-})
-
-.controller('SettingsCtrl', function($scope) {});
+});

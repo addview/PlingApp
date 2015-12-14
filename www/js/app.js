@@ -103,17 +103,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
                 controller: 'InformationScheduleCtrl'
             }
         }
-    })
-
-    .state('tab.informations-mysettings', {
-        url: '/informations-mysettings',
-        views: {
-            'tab-informations': {
-                templateUrl: 'templates/tab-information-mysettings.html',
-                controller: 'InformationMySettingsCtrl'
-            }
-        }
-    })
+    })    
 
     .state('tab.informations-variousdocument', {
         url: '/informations-variousdocument',
@@ -130,6 +120,16 @@ app.config(function($stateProvider, $urlRouterProvider) {
         views: {
             'tab-settings': {
                 templateUrl: 'templates/tab-settings.html',
+                controller: 'SettingsCtrl'
+            }
+        }
+    })
+
+    .state('tab.settings-mysettings', {
+        url: '/settings-mysettings',
+        views: {
+            'tab-settings': {
+                templateUrl: 'templates/tab-information-mysettings.html',
                 controller: 'SettingsCtrl'
             }
         }
